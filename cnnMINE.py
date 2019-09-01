@@ -63,6 +63,6 @@ img = img/(255.0)
 prediction = classifier.predict_classes(img)
          
 if(prediction):
-   print ("DOG")
+   print ("DOGG")
 else:
    print ("CAT")
