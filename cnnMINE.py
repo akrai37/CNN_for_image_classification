@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as  np
 import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Convolution2D
@@ -26,7 +26,7 @@ classifier.compile(optimizer='adam' ,loss='binary_crossentropy', metrics=['accur
 
 from keras.preprocessing.image import ImageDataGenerator
 
-train_augment = ImageDataGenerator(
+train_augment = ImageDataGenerator( 
         rescale=1./255,
         shear_range=0.2,
         zoom_range=0.2,
